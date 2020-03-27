@@ -1,4 +1,5 @@
 # hello-world
 Basic notes and starting concepts for projects
 
-An aspiring lingguist, cryptographer and programmer who likes to create Constructed languages.
+An aspiring programmer, linguist and cryptographer who largly does grunt work and labor.
+
