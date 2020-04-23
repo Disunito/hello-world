@@ -10,4 +10,4 @@
 animals = ['bunny', 'dragon', 'octopus']
 
 for animal in animals:
-    print(animals)
+    print(animal)
