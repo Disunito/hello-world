@@ -11,3 +11,4 @@ animals = ['bunnies', 'dragons', 'octopus']
 
 for animal in animals:
     print(f"I find {animal} can be easily be written into fantasy.")
+print("All of these have been exploited in wonderful ways.")
