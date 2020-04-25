@@ -15,3 +15,8 @@ print(millions)
 #how quickly Python can add a million numbers.
 
 print(f"\n{min(millions)}, \n{max(millions)}, \n{sum(millions)}")
+
+
+print(millions[0:3])
+print(millions[499_998: 500_001])
+print(millions[-3:])
