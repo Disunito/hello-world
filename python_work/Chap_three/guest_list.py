@@ -10,7 +10,9 @@
 guest_list = ['heath ledger', 'sen no rikiu', 'Ching Shih', 'edward snowden']
 print(len(guest_list))
 
-message = '\n\t We would like to invite you,\nto a tea party and absinthe appreciation.\nrsvp asap LOL.'
+message = '''\n\t We would like to invite you,
+to a tea party and absinthe appreciation.
+rsvp asap LOL.'''
 print(f'Dear {guest_list[0].title()},' + message)
 print(f'Dear {guest_list[1].title()},' + message)
 print(f'Dear {guest_list[2].title()},' + message)
@@ -29,7 +31,10 @@ guest_list.remove(guest_cancelled)
 new_guest = guest_list.append('john waters')
 print(len(guest_list))
 
-message = f"\n\t We Had to send new invitations,\nfor our tea party and absinthe appreciation.\nrsvp asap LOL.\n\tSadly, {guest_cancelled.title()} can't make it."
+message = f"""\n\t We Had to send new invitations,
+for our tea party and absinthe appreciation.
+rsvp asap LOL.
+\tSadly, {guest_cancelled.title()} can't make it."""
 print(f'Dear {guest_list[0].title()},' + message)
 print(f'Dear {guest_list[1].title()},' + message)
 print(f'Dear {guest_list[2].title()},' + message)
@@ -48,7 +53,9 @@ guest_list.insert(2, 'kayla dickey')
 guest_list.insert(6, 'cristina de ceasre')
 print(len(guest_list))
 
-message = f"\n\tWe have obtained more seats for our Tea and Absinthe appreciation. \nWe will have more guests Joining us soon."
+message = f"""
+\tWe have obtained more seats for our Tea and Absinthe appreciation.
+We will have more guests Joining us soon."""
 
 print(f"Hello again {guest_list[0].title()}," + message)
 print(f"Hello again {guest_list[1].title()}," + message)
@@ -75,7 +82,9 @@ print(f"Hello again {guest_list[6].title()}," + message)
 #       sure you actually hace an empty list at the end of
 #       your program.
 
-message = 'Due to the size of our cardboard box we will only be able to invite two of our guests. There was a misunderstanding about the "large table" it was for ants.'
+message = '''Due to the size of our cardboard box we will only be able to invite
+two of our guests. There was a misunderstanding about the "large table"
+it was for ants.'''
 
 excused_guest = guest_list.pop()
 print(f'Our apologies {excused_guest.title()},' + message)
