@@ -9,7 +9,7 @@
 runners = ['decker', 'nexus_6']
 decker = runners[0]
 human = runners[0]
-replicant = runners[2]
+replicant = runners[1]
 human_life = 80
 replicant_life = 4
 this = 'never'
