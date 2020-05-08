@@ -25,6 +25,5 @@ new_users = ['disunito', 'ikA', 'audreythorn', 'bbbenson', 'DooMguy']
 for user in new_users:
     if user.lower() in current_users:
         print('Sorry, that username is taken.')
-
     else:
         print(f'Welcome {user.title()}!')
