@@ -1,5 +1,5 @@
 favorite_languages = {
-    'Jen': 'python',
+    'jen': 'python',
     'sarah': 'c',
     'edward': 'ruby',
     'phil': 'java',
@@ -19,5 +19,5 @@ if 'erin' not in favorite_languages:
     print("Erin, please take our poll")
 
 #why is this not sorting the keys?
-for name in sorted(favorite_languages.keys()):
-    print(f"Thanks for taking our poll, {name.title()}")
+for person in sorted(favorite_languages.keys()):
+    print(f"Thanks for taking our poll, {person.title()}")
