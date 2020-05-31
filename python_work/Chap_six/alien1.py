@@ -6,11 +6,13 @@ aliens = [alien_0, alien_1, alien_2]
 for alien in aliens:
     print(alien)
 print('...\n')
+
+#Store aliens here
 aliens = []
 
 #Make 30 green aliens.
 for alien_number in range(30):
-    new_alien = {'color': 'green', 'speed': 'slow', 'points': 5}
+    new_alien = alien_0
     aliens.append(new_alien)
 
 #Change first 3 aliens
