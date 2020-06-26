@@ -9,13 +9,13 @@ cities = {
     'los angeles': {
         'country': 'united states',
         'population': 3_990_000,
-        'fact': "The LA coroner’s office has a gift shop.",
+        'fact': "The LA coroner’s office has a gift shop",
     },
 
     'bergen': {
         'country': 'norway',
         'population': 271_949,
-        'fact': 'bergen is known as the city of the seven mountains.',
+        'fact': 'bergen is known as the city of the seven mountains',
     },
 
     'Utashinai': {
@@ -33,4 +33,5 @@ for city, data in cities.items():
             print(f'{topic.title()}: {info.title()}')
         else:
             print(f'{topic.title()}: {info}')
+    
     print('\n')
