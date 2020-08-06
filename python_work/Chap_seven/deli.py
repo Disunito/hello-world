@@ -1,28 +1,25 @@
-avaliable_orders = ['pastrami', 'ruben', 'italian', 'club', 'veggie']
-sandwich_orders = []
+menu = ['ruben', 'italian', 'club', 'veggie']
+sandwich_orders = ['pastrami', 'club', 'pastrami', 'pastrami', 'veggie']
 finished_orders = []
 
 order_active = True
 
+# States what the aviable choices are.
 print("\n\tWelcome to Log Jammin' subs.\n")
 print("Today's Menu:")
-for sandwich in avaliable_orders:
-	print(f"{sandwich.title()}")
+for item in menu:
+	print(f"\t-{item.title()}")
 
-while order_active:
-	order = input("\nWhat kind of sandwich would you like? ")
-	
-	sandwich_orders = order
-	
-	repeat = input("Will that complete your order? (y/n)")
-	if repeat == 'y':
-		while sandwich_orders:
-			if sandwich_orders in avaliable_orders:
-				making_order = sandwich_orders.pop()
-		
-				print(f"Making order for {sandwhich[order].title()}.")
-				making_order.append(finished_orders)
-		
+# Take order and place order in sandwich_orders.
+while sandwich in sandwich_orders:
+	sandwich = sandwich_orders.pop()
+	if sandwich in menu:
+		print(f"We will get that {sandwich.title()} ready for you.")
+		finished_orders.append(sandwich)
+	else:
+		print(f"we are currently not serving {sandwich.title()}.")
+
+# Prints out The finished order
 print("\n\t--- Order Confirmation ---")
-for order, name in finished_orders.items():
+for order_up in finished_orders:
 	print(f"your {order.title()} is ready.")
